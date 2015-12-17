@@ -1,4 +1,4 @@
-package com.rongpengli.leetcode;
+package com.rongpengli.leetcode.algorithm;
 
 public class ClimbingStairs {
     public int climbStairs(int n) {

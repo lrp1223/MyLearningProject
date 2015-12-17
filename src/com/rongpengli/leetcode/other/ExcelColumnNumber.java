@@ -1,4 +1,4 @@
-package com.rongpengli.leetcode;
+package com.rongpengli.leetcode.other;
 
 public class ExcelColumnNumber {
     public int titleToNumber(String s) {

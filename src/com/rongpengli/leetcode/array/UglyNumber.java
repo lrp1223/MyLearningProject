@@ -1,4 +1,4 @@
-package com.rongpengli.leetcode;
+package com.rongpengli.leetcode.array;
 
 public class UglyNumber {
     public boolean isUgly(int num) {

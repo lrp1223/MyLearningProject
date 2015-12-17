@@ -1,4 +1,4 @@
-package com.rongpengli.leetcode;
+package com.rongpengli.leetcode.array;
 
 public class BuyAndSellStock {
     public int maxProfit(int[] prices) {

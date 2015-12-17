@@ -1,4 +1,4 @@
-package com.rongpengli.leetcode;
+package com.rongpengli.leetcode.array;
 
 public class TrappingRainWater {
 
@@ -23,8 +23,8 @@ public class TrappingRainWater {
                 }
             }
         }
-        for (int i = 0; i < height.length; i++) {
-            water += height[i];
+        for (int element : height) {
+            water += element;
         }
         water = water - total;
         return water;
@@ -53,8 +53,8 @@ public class TrappingRainWater {
                 j--;
             }
         }
-        for (int i = 0; i < height.length; i++) {
-            water += height[i];
+        for (int element : height) {
+            water += element;
         }
         return water - total;
     }
